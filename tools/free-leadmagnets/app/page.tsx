@@ -30,6 +30,22 @@ export default function HomePage() {
             </p>
           </Link>
         </li>
+        <li>
+          <Link
+            href="/tools/launch-checklist"
+            className="block rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition hover:border-slate-300 hover:shadow"
+          >
+            <h2 className="text-lg font-semibold text-slate-900">
+              Founder Launch Checklist
+            </h2>
+            <p className="mt-1 text-sm text-slate-600">
+              Check your product across eight launch areas, see the hard blockers that rule out launching, and get your top gaps and next actions.
+            </p>
+            <p className="mt-3 text-sm font-medium text-sky-700">
+              Open the tool →
+            </p>
+          </Link>
+        </li>
       </ul>
     </main>
   );
